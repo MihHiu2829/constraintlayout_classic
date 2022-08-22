@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@color/gray"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <View
+        android:layout_height="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.25"
+        android:background="@drawable/bg_border_cricle"
+        android:id="@+id/v_1"
+        android:layout_width="50dp"/>
+    <View
+        android:layout_height="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintCircle="@id/v_1"
+        app:layout_constraintCircleRadius="100dp"
+        app:layout_constraintCircleAngle="0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/bg_border_cricle_red"
+        android:id="@+id/v_2"
+        android:layout_width="50dp"/>
+    <View
+        android:layout_height="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintCircle="@id/v_1"
+        app:layout_constraintCircleRadius="100dp"
+        app:layout_constraintCircleAngle="45"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/bg_border_cricle_red"
+        android:id="@+id/v_3"
+        android:layout_width="50dp"/>
+    <View
+        android:layout_height="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintCircle="@id/v_1"
+        app:layout_constraintCircleRadius="100dp"
+        app:layout_constraintCircleAngle="90"
+        android:background="@drawable/bg_border_cricle_red"
+
+        android:id="@+id/v_4"
+        android:layout_width="50dp"/>
+
+    <View
+        android:id="@+id/v_6"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/bg_border_cricle_red"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintCircle="@id/v_1"
+        app:layout_constraintCircleAngle="180"
+        app:layout_constraintCircleRadius="100dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.512" />
+
+    <View
+        android:layout_height="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/bg_border_cricle_red"
+
+        app:layout_constraintCircle="@id/v_1"
+        app:layout_constraintCircleRadius="100dp"
+        app:layout_constraintCircleAngle="225"
+        android:id="@+id/v_7"
+        android:layout_width="50dp"/>
+    <View
+        android:layout_height="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/bg_border_cricle_red"
+
+        app:layout_constraintCircle="@id/v_1"
+        app:layout_constraintCircleRadius="100dp"
+        app:layout_constraintCircleAngle="270"
+        android:id="@+id/v_8"
+        android:layout_width="50dp"/>
+    <View
+        android:layout_height="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/bg_border_cricle_red"
+
+        app:layout_constraintCircle="@id/v_1"
+        app:layout_constraintCircleRadius="100dp"
+        app:layout_constraintCircleAngle="315"
+        android:id="@+id/v_9"
+        android:layout_width="50dp"/>
+
+    <View
+        android:id="@+id/v_5"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/bg_border_cricle_red"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintCircle="@id/v_1"
+        app:layout_constraintCircleAngle="135"
+        app:layout_constraintCircleRadius="100dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.698"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.415" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

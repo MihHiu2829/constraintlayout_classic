@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View
+        android:id="@+id/tv_1"
+        android:layout_width="190dp"
+        android:background="@color/teal_700"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_height="100dp"
+        tools:ignore="MissingConstraints" />
+    <View
+        android:id="@+id/tv_2"
+        app:layout_constraintBottom_toTopOf="@id/tv_1"
+        android:background="@color/orange"
+        app:layout_constraintStart_toStartOf="@id/tv_1"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        tools:ignore="MissingConstraints" />
+    <View
+        android:layout_width="50dp"
+        android:id="@+id/tv_3"
+        android:background="@color/green"
+        app:layout_constraintEnd_toStartOf="@id/tv_2"
+        app:layout_constraintBottom_toTopOf="@id/tv_2"
+        android:layout_height="50dp"/>
+    <View
+        android:layout_width="100dp"
+        android:id="@+id/tv_4"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="@color/red"
+        android:layout_height="50dp"/>
+    <View
+        android:layout_width="280dp"
+        android:id="@+id/tv_5"
+        android:background="@color/gray"
+        android:layout_height="50dp"
+        app:layout_constraintTop_toBottomOf="@id/tv_1"
+        app:layout_constraintEnd_toEndOf="@id/tv_1"
+        app:layout_constraintStart_toStartOf="@id/tv_1"
+        tools:ignore="MissingConstraints" />
+    <View
+        android:layout_width="50dp"
+        android:id="@+id/tv_6"
+        android:background="@color/violet"
+        android:layout_height="50dp"
+        app:layout_constraintTop_toBottomOf="@id/tv_5"
+        app:layout_constraintStart_toEndOf="@id/tv_5"
+        tools:ignore="MissingConstraints" />
+    <View
+        android:layout_width="50dp"
+        android:id="@+id/tv_7"
+        android:background="@color/blue"
+        android:layout_height="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="MissingConstraints" />
+</androidx.constraintlayout.widget.ConstraintLayout>
